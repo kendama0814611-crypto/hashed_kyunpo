@@ -3,6 +3,10 @@ html(lang='en')
 
     head
 
+         //- index.pug（head 内）
+        meta(name="robots" content="noindex, nofollow")
+        meta(name="googlebot" content="noindex, nofollow")
+
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
         meta(name='description', content='')
@@ -133,39 +137,6 @@ html(lang='en')
                                     | Category
                                 .project-name
                                     | ペットも飼っています✨
-                    .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/3.jpg', title='にっこりえがお✨')
-                            img.img-fluid(src='assets/img/portfolio/thumbnails/3.jpg', alt='...')
-                            .portfolio-box-caption
-                                .project-category.text-white-50
-                                    | Category
-                                .project-name
-                                    | にっこりえがお
-                    .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/4.jpg', title='きれいなお花もらいました😍')
-                            img.img-fluid(src='assets/img/portfolio/thumbnails/4.jpg', alt='...')
-                            .portfolio-box-caption
-                                .project-category.text-white-50
-                                    | Category
-                                .project-name
-                                    | きれいなお花もらいました😍
-                    .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/5.jpg', title='わたし、りんやがとりました🥰✨')
-                            img.img-fluid(src='assets/img/portfolio/thumbnails/5.jpg', alt='...')
-                            .portfolio-box-caption
-                                .project-category.text-white-50
-                                    | Category
-                                .project-name
-                                    | わたし、りんやがとりました🥰✨
-                    .col-lg-4.col-sm-6
-                        a.portfolio-box(href='assets/img/portfolio/fullsize/6.jpg', title='🔞')
-                            img.img-fluid(src='assets/img/portfolio/thumbnails/6.jpg', alt='...')
-                            .portfolio-box-caption.p-3
-                                .project-category.text-white-50
-                                    | Category
-                                .project-name
-                                    | 🔞
-
         // Call to action
         section.page-section.bg-dark.text-white
             .container.px-4.px-lg-5.text-center
@@ -258,6 +229,7 @@ html(lang='en')
                                     .fw-bolder お問合せありがとうございます。
                                     br
                                     |後ほど折り返しご連絡いたしますので、今しばらくお待ちくださいませ。
+                                    
 
                             // Submit error message
                             //
